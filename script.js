@@ -1,35 +1,9 @@
-
-
-const englishBtn = document.getElementById("englishBtn");
-const hindiBtn = document.getElementById("hindiBtn");
-const marathiBtn = document.getElementById("marathiBtn");
+// ================================
+// BUTTONS
+// ================================
 
 const bookBtn = document.getElementById("bookBtn");
 const serviceBtn = document.getElementById("serviceBtn");
-
-
-
-const heroTitle = document.getElementById("heroTitle");
-const heroSubtitle = document.getElementById("heroSubtitle");
-
-
-
-const collectionTitle = document.getElementById("collectionTitle");
-const serviceTitle = document.getElementById("serviceTitle");
-const galleryTitle = document.getElementById("galleryTitle");
-const whyTitle = document.getElementById("whyTitle");
-const appointmentTitle = document.getElementById("appointmentTitle");
-const contactTitle = document.getElementById("contactTitle");
-const footerTitle = document.getElementById("footerTitle");
-const footerSubtitle = document.getElementById("footerSubtitle");
-
-const gentsTitle = document.getElementById("gentsTitle");
-const gentsText = document.getElementById("gentsText");
-
-const ladiesTitle = document.getElementById("ladiesTitle");
-const ladiesText = document.getElementById("ladiesText");
-
-
 
 bookBtn.addEventListener("click", () => {
     document.getElementById("appointment").scrollIntoView({
@@ -43,140 +17,235 @@ serviceBtn.addEventListener("click", () => {
     });
 });
 
+// ================================
+// LANGUAGE SWITCH
+// ================================
 
-englishBtn.addEventListener("click", function () {
+const heroTitle = document.getElementById("heroTitle");
+const heroSubtitle = document.getElementById("heroSubtitle");
 
-    heroTitle.innerText = "TailorPro";
-    heroSubtitle.innerText = "Perfect Stitching For Every Occasion";
+document.getElementById("englishBtn").onclick = () => {
 
-    bookBtn.innerText = "Book Appointment";
-    serviceBtn.innerText = "View Services";
+heroTitle.innerHTML = "Perfect Stitching";
 
-    collectionTitle.innerText = "Choose Your Category";
-    serviceTitle.innerText = "Our Services";
-    galleryTitle.innerText = "Our Gallery";
-    whyTitle.innerText = "Why Choose Us?";
-    appointmentTitle.innerText = "Book Your Appointment";
-    contactTitle.innerText = "Contact Us";
+heroSubtitle.innerHTML =
+"Premium Tailoring For Every Occasion";
 
-    footerTitle.innerText = "TailorPro";
-    footerSubtitle.innerText = "Perfect Stitching For Every Occasion";
+bookBtn.innerHTML = "Book Appointment";
 
-    gentsTitle.innerText = "👔 Gents Collection";
-    gentsText.innerText =
-    "Shirts, Pants, Suits, Blazers, Sherwani & Alterations";
+serviceBtn.innerHTML = "View Services";
 
-    ladiesTitle.innerText = "👗 Ladies Collection";
-    ladiesText.innerText =
-    "Blouse, Kurti, Gown, Dresses, Salwar Suit & Alterations";
+};
 
-});
+document.getElementById("hindiBtn").onclick = () => {
 
+heroTitle.innerHTML = "बेहतरीन सिलाई";
 
+heroSubtitle.innerHTML =
+"हर अवसर के लिए प्रीमियम टेलरिंग";
 
-hindiBtn.addEventListener("click", function () {
+bookBtn.innerHTML = "अपॉइंटमेंट बुक करें";
 
-    heroTitle.innerText = "टेलरप्रो";
-    heroSubtitle.innerText = "हर अवसर के लिए बेहतरीन सिलाई";
+serviceBtn.innerHTML = "सेवाएँ देखें";
 
-    bookBtn.innerText = "अपॉइंटमेंट बुक करें";
-    serviceBtn.innerText = "सेवाएँ देखें";
+};
 
-    collectionTitle.innerText = "अपनी श्रेणी चुनें";
-    serviceTitle.innerText = "हमारी सेवाएँ";
-    galleryTitle.innerText = "हमारी गैलरी";
-    whyTitle.innerText = "हमें क्यों चुनें?";
-    appointmentTitle.innerText = "अपॉइंटमेंट बुक करें";
-    contactTitle.innerText = "संपर्क करें";
+document.getElementById("marathiBtn").onclick = () => {
 
-    footerTitle.innerText = "टेलरप्रो";
-    footerSubtitle.innerText = "हर अवसर के लिए बेहतरीन सिलाई";
+heroTitle.innerHTML = "उत्तम शिवणकाम";
 
-    gentsTitle.innerText = "👔 जेंट्स कलेक्शन";
-    gentsText.innerText =
-    "शर्ट, पैंट, सूट, ब्लेज़र, शेरवानी और अल्टरशन";
+heroSubtitle.innerHTML =
+"प्रत्येक प्रसंगासाठी उत्कृष्ट टेलरिंग";
 
-    ladiesTitle.innerText = "👗 लेडीज़ कलेक्शन";
-    ladiesText.innerText =
-    "ब्लाउज, कुर्ती, गाउन, ड्रेस, सलवार सूट और अल्टरशन";
+bookBtn.innerHTML = "अपॉइंटमेंट बुक करा";
 
-});
+serviceBtn.innerHTML = "सेवा पहा";
 
+};
 
-
-marathiBtn.addEventListener("click", function () {
-
-    heroTitle.innerText = "टेलरप्रो";
-    heroSubtitle.innerText = "प्रत्येक प्रसंगासाठी उत्कृष्ट शिवणकाम";
-
-    bookBtn.innerText = "अपॉइंटमेंट बुक करा";
-    serviceBtn.innerText = "सेवा पहा";
-
-    collectionTitle.innerText = "तुमची श्रेणी निवडा";
-    serviceTitle.innerText = "आमच्या सेवा";
-    galleryTitle.innerText = "आमची गॅलरी";
-    whyTitle.innerText = "आम्हालाच का निवडाल?";
-    appointmentTitle.innerText = "अपॉइंटमेंट बुक करा";
-    contactTitle.innerText = "संपर्क करा";
-
-    footerTitle.innerText = "टेलरप्रो";
-    footerSubtitle.innerText = "प्रत्येक प्रसंगासाठी उत्कृष्ट शिवणकाम";
-
-    gentsTitle.innerText = "👔 पुरुष कलेक्शन";
-    gentsText.innerText =
-    "शर्ट, पॅन्ट, सूट, ब्लेझर, शेरवानी व अल्टरशन";
-
-    ladiesTitle.innerText = "👗 महिला कलेक्शन";
-    ladiesText.innerText =
-    "ब्लाउज, कुर्ती, गाऊन, ड्रेस, सलवार सूट व अल्टरशन";
-
-});
-
+// ================================
+// APPOINTMENT FORM
+// ================================
 
 const form = document.getElementById("appointmentForm");
 
-form.addEventListener("submit", function (e) {
+form.addEventListener("submit", function(e){
 
-    e.preventDefault();
+e.preventDefault();
 
-    const name = document.getElementById("name").value.trim();
-    const mobile = document.getElementById("mobile").value.trim();
-    const category = document.getElementById("category").value;
-    const service = document.getElementById("service").value;
-    const date = document.getElementById("date").value;
+const name =
+document.getElementById("name").value.trim();
 
-    if (
-        name === "" ||
-        mobile === "" ||
-        category === "" ||
-        service === "" ||
-        date === ""
-    ) {
-        alert("Please fill all fields.");
-        return;
-    }
+const mobile =
+document.getElementById("mobile").value.trim();
 
-    if (!/^[0-9]{10}$/.test(mobile)) {
-        alert("Please enter a valid 10-digit mobile number.");
-        return;
-    }
+const category =
+document.getElementById("category").value;
 
-    const message =
-`🧵 New TailorPro Appointment
+const service =
+document.getElementById("service").value;
 
-Name: ${name}
-Mobile: ${mobile}
-Category: ${category}
-Service: ${service}
-Date: ${date}`;
+const date =
+document.getElementById("date").value;
 
-    const whatsappURL =
+if(
+name==="" ||
+mobile==="" ||
+category==="" ||
+service==="" ||
+date==="")
+{
+alert("Please fill all fields.");
+return;
+}
+
+if(!/^[0-9]{10}$/.test(mobile))
+{
+alert("Enter Valid Mobile Number");
+return;
+}
+
+const message =
+`🧵 Tailor Appointment
+
+Name : ${name}
+
+Mobile : ${mobile}
+
+Category : ${category}
+
+Service : ${service}
+
+Date : ${date}`;
+
+const whatsappURL =
 `https://wa.me/918999635317?text=${encodeURIComponent(message)}`;
 
-    window.open(whatsappURL, "_blank");
+window.open(whatsappURL,"_blank");
 
-    alert("Appointment Booked Successfully!");
+alert("Appointment Sent Successfully!");
 
-    form.reset();
+form.reset();
+
+});
+
+// ================================
+// TOP BUTTON
+// ================================
+
+const topBtn =
+document.querySelector(".top-button");
+
+window.addEventListener("scroll",()=>{
+
+if(window.scrollY>300){
+
+topBtn.style.display="flex";
+
+}
+else{
+
+topBtn.style.display="none";
+
+}
+
+});
+
+// ================================
+// SCROLL ANIMATION
+// ================================
+
+const boxes =
+document.querySelectorAll(
+".service-box,.collection-card,.gallery-box,.why-box,.review-box,.stat-box"
+);
+
+const observer =
+new IntersectionObserver((entries)=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.style.opacity="1";
+entry.target.style.transform="translateY(0)";
+
+}
+
+});
+
+},
+{
+threshold:0.2
+});
+
+boxes.forEach(box=>{
+
+box.style.opacity="0";
+box.style.transform="translateY(40px)";
+box.style.transition=".7s";
+
+observer.observe(box);
+
+});
+
+// ================================
+// ACTIVE NAV LINK
+// ================================
+
+const sections =
+document.querySelectorAll("section");
+
+const navLinks =
+document.querySelectorAll(".nav-links a");
+
+window.addEventListener("scroll",()=>{
+
+let current="";
+
+sections.forEach(section=>{
+
+const sectionTop =
+section.offsetTop-150;
+
+if(pageYOffset>=sectionTop){
+
+current=section.getAttribute("id");
+
+}
+
+});
+
+navLinks.forEach(link=>{
+
+link.classList.remove("active");
+
+if(link.getAttribute("href")==="#" + current){
+
+link.classList.add("active");
+
+}
+
+});
+
+});
+
+// ================================
+// CURRENT YEAR
+// ================================
+
+const footer =
+document.querySelector("footer p:last-child");
+
+footer.innerHTML =
+`© ${new Date().getFullYear()} All Rights Reserved.`;
+
+// ================================
+// PAGE LOADED
+// ================================
+
+window.addEventListener("load",()=>{
+
+document.body.style.opacity="1";
 
 });
