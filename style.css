@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: gold;
+    font-size: 50px;
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    padding-top: 80px;
+    background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/hero.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.hero h1{
+    font-size: 70px;
+    color: gold;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.hero button{
+    padding: 15px 35px;
+    font-size: 18px;
+    background: gold;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+box-shadow: 0 0 20px gold;
+}
+
+.hero button:hover{
+    .hero button:hover{
+    background: white;
+    transform: scale(1.05);
+}
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:black;
+    padding:20px 80px;
+
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.logo{
+    color: gold;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    color: gold;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.language button{
+    background: transparent;
+    color: white;
+    border: 1px solid gold;
+    padding: 8px 12px;
+    margin-left: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.language button:hover{
+    background: gold;
+    color: black;
+}
+.services{
+    padding: 80px 10%;
+    text-align: center;
+    background: #1a1a1a;
+    .service-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+}
+
+.services h2{
+    color: gold;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.service-box{
+    background: #2a2a2a;
+    color: white;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 10px;
+    border: 1px solid gold;
+    transition: 0.3s;
+}
+
+.service-box:hover{
+    transform: translateY(-8px);
+}
+.hero-buttons{
+    display: flex;
+    gap: 15px;
+}
+.collection{
+    padding: 80px 10%;
+    text-align: center;
+    background: #111;
+}
+
+.collection h2{
+    color: gold;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.collection-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.collection-card{
+    width: 350px;
+    background: #222;
+    padding: 30px;
+    border: 1px solid gold;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.collection-card h3{
+    color: gold;
+    margin-bottom: 15px;
+}
+
+.collection-card p{
+    color: white;
+    line-height: 1.6;
+}
+
+.collection-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px gold;
+}.gallery{
+    padding: 80px 10%;
+    background:#111;
+    text-align:center;
+}
+
+.gallery h2{
+    color:gold;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.gallery-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.gallery-box{
+    width:250px;
+    height:180px;
+    border:2px solid gold;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    background:#222;
+    transition:0.3s;
+}
+
+.gallery-box:hover{
+    transform:scale(1.05);
+}
+.gallery-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.why-us{
+    padding:80px 10%;
+    background:#1a1a1a;
+    text-align:center;
+}
+
+.why-us h2{
+    color:gold;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.why-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.why-box{
+    width:300px;
+    background:#222;
+    color:white;
+    padding:25px;
+    border:1px solid gold;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.why-box:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 15px gold;
+}
+
+.why-box h3{
+    color:gold;
+    margin-bottom:15px;
+}
+.appointment{
+    padding:80px 10%;
+    background:#111;
+    text-align:center;
+}
+
+.appointment h2{
+    color:gold;
+    margin-bottom:30px;
+    font-size:40px;
+}
+
+.appointment form{
+    max-width:600px;
+    margin:auto;
+}
+
+.appointment input,
+.appointment select{
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    background:#222;
+    color:white;
+    border:1px solid gold;
+    border-radius:8px;
+}
+
+.appointment button{
+    width:100%;
+    padding:15px;
+    background:gold;
+    color:black;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+.appointment button:hover{
+    background:white;
+}
+.contact{
+    padding:80px 10%;
+    text-align:center;
+    background:#1a1a1a;
+}
+
+.contact h2{
+    color:gold;
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+.contact-box{
+    max-width:600px;
+    margin:auto;
+    background:#222;
+    padding:30px;
+    border:1px solid gold;
+    border-radius:10px;
+}
+
+.contact-box p{
+    color:white;
+    margin:15px 0;
+    font-size:18px;
+}
+footer{
+    background:#000;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+
+footer h3{
+    color:gold;
+    margin-bottom:10px;
+}
+
+footer p{
+    margin:8px 0;
+}
+/* ===========================
+   Mobile Responsive
+=========================== */
+
+@media (max-width: 768px) {
+
+    nav{
+        flex-direction: column;
+        padding:15px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        gap:15px;
+        margin:15px 0;
+    }
+
+    .language-buttons{
+        margin-top:15px;
+    }
+
+    .hero h1{
+        font-size:45px;
+    }
+
+    .hero p{
+        font-size:22px;
+    }
+
+    .hero-buttons{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .services,
+    .gallery,
+    .categories,
+    .why-us{
+        grid-template-columns:1fr;
+    }
+
+    form{
+        width:95%;
+    }
+
+    .contact-box{
+        width:95%;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
