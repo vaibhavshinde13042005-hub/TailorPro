@@ -1,6 +1,6 @@
-// ================================
+// ========================================
 // BUTTONS
-// ================================
+// ========================================
 
 const bookBtn = document.getElementById("bookBtn");
 const serviceBtn = document.getElementById("serviceBtn");
@@ -17,235 +17,296 @@ serviceBtn.addEventListener("click", () => {
     });
 });
 
-// ================================
-// LANGUAGE SWITCH
-// ================================
+// ========================================
+// LANGUAGE ELEMENTS
+// ========================================
 
 const heroTitle = document.getElementById("heroTitle");
 const heroSubtitle = document.getElementById("heroSubtitle");
 
-document.getElementById("englishBtn").onclick = () => {
+const collectionTitle = document.getElementById("collectionTitle");
+const gentsTitle = document.getElementById("gentsTitle");
+const gentsText = document.getElementById("gentsText");
+const ladiesTitle = document.getElementById("ladiesTitle");
+const ladiesText = document.getElementById("ladiesText");
 
-heroTitle.innerHTML = "Perfect Stitching";
+const serviceTitle = document.getElementById("serviceTitle");
+const galleryTitle = document.getElementById("galleryTitle");
+const whyTitle = document.getElementById("whyTitle");
+const appointmentTitle = document.getElementById("appointmentTitle");
+const contactTitle = document.getElementById("contactTitle");
 
-heroSubtitle.innerHTML =
-"Premium Tailoring For Every Occasion";
+const footerTitle = document.getElementById("footerTitle");
+const footerSubtitle = document.getElementById("footerSubtitle");
 
-bookBtn.innerHTML = "Book Appointment";
+// ========================================
+// ENGLISH
+// ========================================
 
-serviceBtn.innerHTML = "View Services";
+document.getElementById("englishBtn").onclick = function () {
+
+heroTitle.innerText = "Perfect Stitching";
+heroSubtitle.innerText = "Premium Tailoring For Every Occasion";
+
+bookBtn.innerText = "Book Appointment";
+serviceBtn.innerText = "View Services";
+
+collectionTitle.innerText = "Choose Your Category";
+
+gentsTitle.innerText = "👔 Gents Collection";
+gentsText.innerText =
+"Shirts, Pants, Suits, Blazers, Sherwani & Alterations";
+
+ladiesTitle.innerText = "👗 Ladies Collection";
+ladiesText.innerText =
+"Blouse, Kurti, Gown, Dresses, Salwar Suit & Alterations";
+
+serviceTitle.innerText = "Our Services";
+
+galleryTitle.innerText = "Our Gallery";
+
+whyTitle.innerText = "Why Choose Us?";
+
+appointmentTitle.innerText = "Book Your Appointment";
+
+contactTitle.innerText = "Contact Us";
+
+footerTitle.innerText = "TailorPro";
+footerSubtitle.innerText =
+"Perfect Stitching For Every Occasion";
 
 };
 
-document.getElementById("hindiBtn").onclick = () => {
+// ========================================
+// HINDI
+// ========================================
 
-heroTitle.innerHTML = "बेहतरीन सिलाई";
+document.getElementById("hindiBtn").onclick = function () {
 
-heroSubtitle.innerHTML =
+heroTitle.innerText = "बेहतरीन सिलाई";
+heroSubtitle.innerText =
 "हर अवसर के लिए प्रीमियम टेलरिंग";
 
-bookBtn.innerHTML = "अपॉइंटमेंट बुक करें";
+bookBtn.innerText = "अपॉइंटमेंट बुक करें";
+serviceBtn.innerText = "सेवाएँ देखें";
 
-serviceBtn.innerHTML = "सेवाएँ देखें";
+collectionTitle.innerText = "अपनी श्रेणी चुनें";
+
+gentsTitle.innerText = "👔 जेंट्स कलेक्शन";
+gentsText.innerText =
+"शर्ट, पैंट, सूट, ब्लेज़र, शेरवानी और अल्टरेशन";
+
+ladiesTitle.innerText = "👗 लेडीज़ कलेक्शन";
+ladiesText.innerText =
+"ब्लाउज, कुर्ती, गाउन, ड्रेस, सलवार सूट और अल्टरेशन";
+
+serviceTitle.innerText = "हमारी सेवाएँ";
+
+galleryTitle.innerText = "हमारी गैलरी";
+
+whyTitle.innerText = "हमें क्यों चुनें?";
+
+appointmentTitle.innerText = "अपॉइंटमेंट बुक करें";
+
+contactTitle.innerText = "संपर्क करें";
+
+footerTitle.innerText = "टेलरप्रो";
+footerSubtitle.innerText =
+"हर अवसर के लिए बेहतरीन सिलाई";
 
 };
 
-document.getElementById("marathiBtn").onclick = () => {
+// ========================================
+// MARATHI
+// ========================================
 
-heroTitle.innerHTML = "उत्तम शिवणकाम";
+document.getElementById("marathiBtn").onclick = function () {
 
-heroSubtitle.innerHTML =
+heroTitle.innerText = "उत्तम शिवणकाम";
+heroSubtitle.innerText =
 "प्रत्येक प्रसंगासाठी उत्कृष्ट टेलरिंग";
 
-bookBtn.innerHTML = "अपॉइंटमेंट बुक करा";
+bookBtn.innerText = "अपॉइंटमेंट बुक करा";
+serviceBtn.innerText = "सेवा पहा";
 
-serviceBtn.innerHTML = "सेवा पहा";
+collectionTitle.innerText = "तुमची श्रेणी निवडा";
+
+gentsTitle.innerText = "👔 जेन्ट्स कलेक्शन";
+gentsText.innerText =
+"शर्ट, पँट, सूट, ब्लेझर, शेरवानी व अल्टरेशन";
+
+ladiesTitle.innerText = "👗 लेडीज कलेक्शन";
+ladiesText.innerText =
+"ब्लाऊज, कुर्ती, गाऊन, ड्रेस, सलवार सूट व अल्टरेशन";
+
+serviceTitle.innerText = "आमच्या सेवा";
+
+galleryTitle.innerText = "आमची गॅलरी";
+
+whyTitle.innerText = "आम्हालाच का निवडाल?";
+
+appointmentTitle.innerText = "अपॉइंटमेंट बुक करा";
+
+contactTitle.innerText = "संपर्क करा";
+
+footerTitle.innerText = "टेलरप्रो";
+footerSubtitle.innerText =
+"प्रत्येक प्रसंगासाठी उत्कृष्ट शिवणकाम";
+
+};
+// ========================================
+// BUTTONS
+// ========================================
+
+const bookBtn = document.getElementById("bookBtn");
+const serviceBtn = document.getElementById("serviceBtn");
+
+bookBtn.addEventListener("click", () => {
+    document.getElementById("appointment").scrollIntoView({
+        behavior: "smooth"
+    });
+});
+
+serviceBtn.addEventListener("click", () => {
+    document.getElementById("services").scrollIntoView({
+        behavior: "smooth"
+    });
+});
+
+// ========================================
+// LANGUAGE ELEMENTS
+// ========================================
+
+const heroTitle = document.getElementById("heroTitle");
+const heroSubtitle = document.getElementById("heroSubtitle");
+
+const collectionTitle = document.getElementById("collectionTitle");
+const gentsTitle = document.getElementById("gentsTitle");
+const gentsText = document.getElementById("gentsText");
+const ladiesTitle = document.getElementById("ladiesTitle");
+const ladiesText = document.getElementById("ladiesText");
+
+const serviceTitle = document.getElementById("serviceTitle");
+const galleryTitle = document.getElementById("galleryTitle");
+const whyTitle = document.getElementById("whyTitle");
+const appointmentTitle = document.getElementById("appointmentTitle");
+const contactTitle = document.getElementById("contactTitle");
+
+const footerTitle = document.getElementById("footerTitle");
+const footerSubtitle = document.getElementById("footerSubtitle");
+
+// ========================================
+// ENGLISH
+// ========================================
+
+document.getElementById("englishBtn").onclick = function () {
+
+heroTitle.innerText = "Perfect Stitching";
+heroSubtitle.innerText = "Premium Tailoring For Every Occasion";
+
+bookBtn.innerText = "Book Appointment";
+serviceBtn.innerText = "View Services";
+
+collectionTitle.innerText = "Choose Your Category";
+
+gentsTitle.innerText = "👔 Gents Collection";
+gentsText.innerText =
+"Shirts, Pants, Suits, Blazers, Sherwani & Alterations";
+
+ladiesTitle.innerText = "👗 Ladies Collection";
+ladiesText.innerText =
+"Blouse, Kurti, Gown, Dresses, Salwar Suit & Alterations";
+
+serviceTitle.innerText = "Our Services";
+
+galleryTitle.innerText = "Our Gallery";
+
+whyTitle.innerText = "Why Choose Us?";
+
+appointmentTitle.innerText = "Book Your Appointment";
+
+contactTitle.innerText = "Contact Us";
+
+footerTitle.innerText = "TailorPro";
+footerSubtitle.innerText =
+"Perfect Stitching For Every Occasion";
 
 };
 
-// ================================
-// APPOINTMENT FORM
-// ================================
+// ========================================
+// HINDI
+// ========================================
 
-const form = document.getElementById("appointmentForm");
+document.getElementById("hindiBtn").onclick = function () {
 
-form.addEventListener("submit", function(e){
+heroTitle.innerText = "बेहतरीन सिलाई";
+heroSubtitle.innerText =
+"हर अवसर के लिए प्रीमियम टेलरिंग";
 
-e.preventDefault();
+bookBtn.innerText = "अपॉइंटमेंट बुक करें";
+serviceBtn.innerText = "सेवाएँ देखें";
 
-const name =
-document.getElementById("name").value.trim();
+collectionTitle.innerText = "अपनी श्रेणी चुनें";
 
-const mobile =
-document.getElementById("mobile").value.trim();
+gentsTitle.innerText = "👔 जेंट्स कलेक्शन";
+gentsText.innerText =
+"शर्ट, पैंट, सूट, ब्लेज़र, शेरवानी और अल्टरेशन";
 
-const category =
-document.getElementById("category").value;
+ladiesTitle.innerText = "👗 लेडीज़ कलेक्शन";
+ladiesText.innerText =
+"ब्लाउज, कुर्ती, गाउन, ड्रेस, सलवार सूट और अल्टरेशन";
 
-const service =
-document.getElementById("service").value;
+serviceTitle.innerText = "हमारी सेवाएँ";
 
-const date =
-document.getElementById("date").value;
+galleryTitle.innerText = "हमारी गैलरी";
 
-if(
-name==="" ||
-mobile==="" ||
-category==="" ||
-service==="" ||
-date==="")
-{
-alert("Please fill all fields.");
-return;
-}
+whyTitle.innerText = "हमें क्यों चुनें?";
 
-if(!/^[0-9]{10}$/.test(mobile))
-{
-alert("Enter Valid Mobile Number");
-return;
-}
+appointmentTitle.innerText = "अपॉइंटमेंट बुक करें";
 
-const message =
-`🧵 Tailor Appointment
+contactTitle.innerText = "संपर्क करें";
 
-Name : ${name}
+footerTitle.innerText = "टेलरप्रो";
+footerSubtitle.innerText =
+"हर अवसर के लिए बेहतरीन सिलाई";
 
-Mobile : ${mobile}
+};
 
-Category : ${category}
+// ========================================
+// MARATHI
+// ========================================
 
-Service : ${service}
+document.getElementById("marathiBtn").onclick = function () {
 
-Date : ${date}`;
+heroTitle.innerText = "उत्तम शिवणकाम";
+heroSubtitle.innerText =
+"प्रत्येक प्रसंगासाठी उत्कृष्ट टेलरिंग";
 
-const whatsappURL =
-`https://wa.me/918999635317?text=${encodeURIComponent(message)}`;
+bookBtn.innerText = "अपॉइंटमेंट बुक करा";
+serviceBtn.innerText = "सेवा पहा";
 
-window.open(whatsappURL,"_blank");
+collectionTitle.innerText = "तुमची श्रेणी निवडा";
 
-alert("Appointment Sent Successfully!");
+gentsTitle.innerText = "👔 जेन्ट्स कलेक्शन";
+gentsText.innerText =
+"शर्ट, पँट, सूट, ब्लेझर, शेरवानी व अल्टरेशन";
 
-form.reset();
+ladiesTitle.innerText = "👗 लेडीज कलेक्शन";
+ladiesText.innerText =
+"ब्लाऊज, कुर्ती, गाऊन, ड्रेस, सलवार सूट व अल्टरेशन";
 
-});
+serviceTitle.innerText = "आमच्या सेवा";
 
-// ================================
-// TOP BUTTON
-// ================================
+galleryTitle.innerText = "आमची गॅलरी";
 
-const topBtn =
-document.querySelector(".top-button");
+whyTitle.innerText = "आम्हालाच का निवडाल?";
 
-window.addEventListener("scroll",()=>{
+appointmentTitle.innerText = "अपॉइंटमेंट बुक करा";
 
-if(window.scrollY>300){
+contactTitle.innerText = "संपर्क करा";
 
-topBtn.style.display="flex";
+footerTitle.innerText = "टेलरप्रो";
+footerSubtitle.innerText =
+"प्रत्येक प्रसंगासाठी उत्कृष्ट शिवणकाम";
 
-}
-else{
-
-topBtn.style.display="none";
-
-}
-
-});
-
-// ================================
-// SCROLL ANIMATION
-// ================================
-
-const boxes =
-document.querySelectorAll(
-".service-box,.collection-card,.gallery-box,.why-box,.review-box,.stat-box"
-);
-
-const observer =
-new IntersectionObserver((entries)=>{
-
-entries.forEach(entry=>{
-
-if(entry.isIntersecting){
-
-entry.target.style.opacity="1";
-entry.target.style.transform="translateY(0)";
-
-}
-
-});
-
-},
-{
-threshold:0.2
-});
-
-boxes.forEach(box=>{
-
-box.style.opacity="0";
-box.style.transform="translateY(40px)";
-box.style.transition=".7s";
-
-observer.observe(box);
-
-});
-
-// ================================
-// ACTIVE NAV LINK
-// ================================
-
-const sections =
-document.querySelectorAll("section");
-
-const navLinks =
-document.querySelectorAll(".nav-links a");
-
-window.addEventListener("scroll",()=>{
-
-let current="";
-
-sections.forEach(section=>{
-
-const sectionTop =
-section.offsetTop-150;
-
-if(pageYOffset>=sectionTop){
-
-current=section.getAttribute("id");
-
-}
-
-});
-
-navLinks.forEach(link=>{
-
-link.classList.remove("active");
-
-if(link.getAttribute("href")==="#" + current){
-
-link.classList.add("active");
-
-}
-
-});
-
-});
-
-// ================================
-// CURRENT YEAR
-// ================================
-
-const footer =
-document.querySelector("footer p:last-child");
-
-footer.innerHTML =
-`© ${new Date().getFullYear()} All Rights Reserved.`;
-
-// ================================
-// PAGE LOADED
-// ================================
-
-window.addEventListener("load",()=>{
-
-document.body.style.opacity="1";
-
-});
+};

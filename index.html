@@ -3,29 +3,30 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
 
-    <title>TailorPro | Professional Tailor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description"
-        content="Professional Tailor Shop Website for Gents & Ladies Stitching">
+<title>TailorPro</title>
 
-    <meta name="keywords"
-        content="Tailor, Boutique, Gents Tailor, Ladies Tailor, Stitching, Alteration">
+<meta name="description" content="Professional Tailoring Services">
 
-    <meta name="author" content="TailorPro">
+<meta name="keywords" content="Tailor, Boutique, Stitching, Alteration">
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 
 <body>
-
-<!-- ================= NAVBAR ================= -->
 
 <header>
 
@@ -41,31 +42,39 @@
 
 <ul class="nav-links">
 
-<li><a href="#home">Home</a></li>
+<li><a href="#home" id="navHome">Home</a></li>
 
-<li><a href="#about">About</a></li>
+<li><a href="#collection" id="navCollection">Collection</a></li>
 
-<li><a href="#collection">Collection</a></li>
+<li><a href="#services" id="navServices">Services</a></li>
 
-<li><a href="#services">Services</a></li>
+<li><a href="#gallery" id="navGallery">Gallery</a></li>
 
-<li><a href="#gallery">Gallery</a></li>
+<li><a href="#appointment" id="navBook">Book</a></li>
 
-<li><a href="#reviews">Reviews</a></li>
-
-<li><a href="#appointment">Book</a></li>
-
-<li><a href="#contact">Contact</a></li>
+<li><a href="#contact" id="navContact">Contact</a></li>
 
 </ul>
 
 <div class="language">
 
-<button id="englishBtn" class="language-btn">English</button>
+<button class="language-btn" id="englishBtn">
 
-<button id="hindiBtn" class="language-btn">हिंदी</button>
+English
 
-<button id="marathiBtn" class="language-btn">मराठी</button>
+</button>
+
+<button class="language-btn" id="hindiBtn">
+
+हिंदी
+
+</button>
+
+<button class="language-btn" id="marathiBtn">
+
+मराठी
+
+</button>
 
 </div>
 
@@ -73,7 +82,7 @@
 
 </header>
 
-<!-- ================= HERO ================= -->
+<main>
 
 <section class="hero" id="home">
 
@@ -81,13 +90,13 @@
 
 <h1 id="heroTitle">
 
-Perfect Stitching
+TailorPro
 
 </h1>
 
 <p id="heroSubtitle">
 
-Premium Tailoring For Every Occasion
+Perfect Stitching For Every Occasion
 
 </p>
 
@@ -107,8 +116,6 @@ View Services
 
 <a href="tel:+919999999999" class="call-btn">
 
-<i class="fa-solid fa-phone"></i>
-
 Call Now
 
 </a>
@@ -118,72 +125,6 @@ Call Now
 </div>
 
 </section>
-
-<!-- ================= STATS ================= -->
-
-<section class="stats">
-
-<div class="stats-container">
-
-<div class="stat-box">
-
-<h2>10+</h2>
-
-<p>Years Experience</p>
-
-</div>
-
-<div class="stat-box">
-
-<h2>5000+</h2>
-
-<p>Happy Customers</p>
-
-</div>
-
-<div class="stat-box">
-
-<h2>100%</h2>
-
-<p>Quality Stitching</p>
-
-</div>
-
-<div class="stat-box">
-
-<h2>24h</h2>
-
-<p>Quick Support</p>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ================= ABOUT ================= -->
-
-<section class="about" id="about">
-
-<h2>
-
-About TailorPro
-
-</h2>
-
-<p>
-
-We provide premium tailoring services with perfect fitting,
-modern designs and on-time delivery.
-
-Our skilled team ensures every customer receives the best
-quality stitching.
-
-</p>
-
-</section>
-
-<!-- ================= COLLECTION ================= -->
 
 <section class="collection" id="collection">
 
@@ -207,8 +148,8 @@ Gents Collection
 
 <p id="gentsText">
 
-Shirts, Pants, Blazers, Suits,
-Sherwani, Alterations
+Shirts, Pants, Suits, Blazers,
+Sherwani & Alterations
 
 </p>
 
@@ -227,7 +168,7 @@ Ladies Collection
 <p id="ladiesText">
 
 Blouse, Kurti, Gown,
-Dress, Salwar Suit,
+Dress, Salwar Suit &
 Alterations
 
 </p>
@@ -237,8 +178,6 @@ Alterations
 </div>
 
 </section>
-
-<!-- ================= SERVICES ================= -->
 
 <section class="services" id="services">
 
@@ -254,15 +193,15 @@ Our Services
 
 <i class="fa-solid fa-shirt"></i>
 
-<h3>Pant Stitching</h3>
+<h3>Shirt Stitching</h3>
 
 </div>
 
 <div class="service-box">
 
-<i class="fa-solid fa-shirt"></i>
+<i class="fa-solid fa-user"></i>
 
-<h3>Shirt Stitching</h3>
+<h3>Pant Stitching</h3>
 
 </div>
 
@@ -276,253 +215,233 @@ Our Services
 
 <div class="service-box">
 
-<i class="fa-solid fa-person-dress"></i>
+<i class="fa-solid fa-vest"></i>
 
-<h3>Blouse Stitching</h3>
+<h3>Blazer Stitching</h3>
 
 </div>
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="service-box">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TailorPro</title>
+
+<meta name="description" content="Professional Tailoring Services">
+
+<meta name="keywords" content="Tailor, Boutique, Stitching, Alteration">
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">
 
 <i class="fa-solid fa-scissors"></i>
 
-<h3>Kurti Stitching</h3>
+<span id="logoText">TailorPro</span>
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#home" id="navHome">Home</a></li>
+
+<li><a href="#collection" id="navCollection">Collection</a></li>
+
+<li><a href="#services" id="navServices">Services</a></li>
+
+<li><a href="#gallery" id="navGallery">Gallery</a></li>
+
+<li><a href="#appointment" id="navBook">Book</a></li>
+
+<li><a href="#contact" id="navContact">Contact</a></li>
+
+</ul>
+
+<div class="language">
+
+<button class="language-btn" id="englishBtn">
+
+English
+
+</button>
+
+<button class="language-btn" id="hindiBtn">
+
+हिंदी
+
+</button>
+
+<button class="language-btn" id="marathiBtn">
+
+मराठी
+
+</button>
+
+</div>
+
+</nav>
+
+</header>
+
+<main>
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h1 id="heroTitle">
+
+TailorPro
+
+</h1>
+
+<p id="heroSubtitle">
+
+Perfect Stitching For Every Occasion
+
+</p>
+
+<div class="hero-buttons">
+
+<button id="bookBtn">
+
+Book Appointment
+
+</button>
+
+<button id="serviceBtn">
+
+View Services
+
+</button>
+
+<a href="tel:+919999999999" class="call-btn">
+
+Call Now
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="collection" id="collection">
+
+<h2 id="collectionTitle">
+
+Choose Your Category
+
+</h2>
+
+<div class="collection-container">
+
+<div class="collection-card">
+
+<i class="fa-solid fa-user-tie"></i>
+
+<h3 id="gentsTitle">
+
+Gents Collection
+
+</h3>
+
+<p id="gentsText">
+
+Shirts, Pants, Suits, Blazers,
+Sherwani & Alterations
+
+</p>
+
+</div>
+
+<div class="collection-card">
+
+<i class="fa-solid fa-person-dress"></i>
+
+<h3 id="ladiesTitle">
+
+Ladies Collection
+
+</h3>
+
+<p id="ladiesText">
+
+Blouse, Kurti, Gown,
+Dress, Salwar Suit &
+Alterations
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="services" id="services">
+
+<h2 id="serviceTitle">
+
+Our Services
+
+</h2>
+
+<div class="service-container">
+
+<div class="service-box">
+
+<i class="fa-solid fa-shirt"></i>
+
+<h3>Shirt Stitching</h3>
 
 </div>
 
 <div class="service-box">
 
-<i class="fa-solid fa-ruler"></i>
+<i class="fa-solid fa-user"></i>
 
-<h3>Alteration</h3>
-
-</div>
+<h3>Pant Stitching</h3>
 
 </div>
 
-</section>
-<!-- ================= GALLERY ================= -->
+<div class="service-box">
 
-<section class="gallery" id="gallery">
+<i class="fa-solid fa-user-tie"></i>
 
-<h2 id="galleryTitle">
-
-Our Gallery
-
-</h2>
-
-<div class="gallery-container">
-
-<div class="gallery-box">
-<img src="images/g1.jpg" alt="Gallery 1">
-</div>
-
-<div class="gallery-box">
-<img src="images/g2.jpg" alt="Gallery 2">
-</div>
-
-<div class="gallery-box">
-<img src="images/g3.jpg" alt="Gallery 3">
-</div>
-
-<div class="gallery-box">
-<img src="images/g4.jpg" alt="Gallery 4">
-</div>
-
-<div class="gallery-box">
-<img src="images/g5.jpg" alt="Gallery 5">
-</div>
-
-<div class="gallery-box">
-<img src="images/g6.jpg" alt="Gallery 6">
-</div>
+<h3>Suit Stitching</h3>
 
 </div>
 
-</section>
+<div class="service-box">
 
-<!-- ================= WHY CHOOSE US ================= -->
+<i class="fa-solid fa-vest"></i>
 
-<section class="why-us" id="why">
-
-<h2 id="whyTitle">
-
-Why Choose Us?
-
-</h2>
-
-<div class="why-container">
-
-<div class="why-box">
-
-<i class="fa-solid fa-award"></i>
-
-<h3>Perfect Stitching</h3>
-
-<p>
-Professional finishing with premium quality stitching.
-</p>
+<h3>Blazer Stitching</h3>
 
 </div>
-
-<div class="why-box">
-
-<i class="fa-solid fa-clock"></i>
-
-<h3>On Time Delivery</h3>
-
-<p>
-We always deliver your clothes on the promised date.
-</p>
-
-</div>
-
-<div class="why-box">
-
-<i class="fa-solid fa-star"></i>
-
-<h3>Customer Satisfaction</h3>
-
-<p>
-Trusted by thousands of happy customers.
-</p>
-
-</div>
-
-<div class="why-box">
-
-<i class="fa-solid fa-handshake"></i>
-
-<h3>Affordable Price</h3>
-
-<p>
-Best quality tailoring at reasonable prices.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ================= REVIEWS ================= -->
-
-<section class="reviews" id="reviews">
-
-<h2>
-
-Customer Reviews
-
-</h2>
-
-<div class="review-container">
-
-<div class="review-box">
-
-★★★★★
-
-<p>
-
-Excellent stitching and fitting.
-Highly recommended.
-
-</p>
-
-<h4>- Rahul Patil</h4>
-
-</div>
-
-<div class="review-box">
-
-★★★★★
-
-<p>
-
-Very professional work and
-on-time delivery.
-
-</p>
-
-<h4>- Sneha Joshi</h4>
-
-</div>
-
-<div class="review-box">
-
-★★★★★
-
-<p>
-
-Best tailor in the city.
-
-</p>
-
-<h4>- Amit Sharma</h4>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ================= BUSINESS HOURS ================= -->
-
-<section class="hours">
-
-<h2>
-
-Business Hours
-
-</h2>
-
-<div class="hours-box">
-
-<p>Monday - Saturday : 9:00 AM - 9:00 PM</p>
-
-<p>Sunday : 10:00 AM - 2:00 PM</p>
-
-</div>
-
-</section>
-
-<!-- ================= FAQ ================= -->
-
-<section class="faq">
-
-<h2>
-
-Frequently Asked Questions
-
-</h2>
-
-<div class="faq-box">
-
-<h3>Do you provide alteration service?</h3>
-
-<p>Yes, we provide all types of alterations.</p>
-
-</div>
-
-<div class="faq-box">
-
-<h3>Can I book through WhatsApp?</h3>
-
-<p>Yes, appointments can be booked directly.</p>
-
-</div>
-
-<div class="faq-box">
-
-<h3>How many days does stitching take?</h3>
-
-<p>Usually 2–7 days depending on the order.</p>
-
-</div>
-
-</section>
-
-<!-- ================= APPOINTMENT ================= -->
-
 <section class="appointment" id="appointment">
 
 <h2 id="appointmentTitle">
@@ -559,11 +478,13 @@ required>
 
 <option value="">Select Service</option>
 
-<option>Pant Stitching</option>
-
 <option>Shirt Stitching</option>
 
+<option>Pant Stitching</option>
+
 <option>Suit Stitching</option>
+
+<option>Blazer Stitching</option>
 
 <option>Blouse Stitching</option>
 
@@ -588,8 +509,161 @@ Book Appointment
 
 </section>
 
-<!-- ================= CONTACT ================= -->
+<section class="reviews" id="reviews">
 
+<h2 id="reviewTitle">
+
+Customer Reviews
+
+</h2>
+
+<div class="review-container">
+
+<div class="review-box">
+
+<h4 id="reviewName1">
+
+Rahul Patil
+
+</h4>
+
+<p id="reviewText1">
+
+Excellent stitching and fitting.
+Highly recommended.
+
+</p>
+
+⭐⭐⭐⭐⭐
+
+</div>
+
+<div class="review-box">
+
+<h4 id="reviewName2">
+
+Sneha Joshi
+
+</h4>
+
+<p id="reviewText2">
+
+Very professional work and
+on-time delivery.
+
+</p>
+
+⭐⭐⭐⭐⭐
+
+</div>
+
+<div class="review-box">
+
+<h4 id="reviewName3">
+
+Amit Sharma
+
+</h4>
+
+<p id="reviewText3">
+
+Best tailor in the city.
+
+</p>
+
+⭐⭐⭐⭐⭐
+
+</div>
+
+</div>
+
+</section>
+
+<section class="hours">
+
+<h2 id="hoursTitle">
+
+Business Hours
+
+</h2>
+
+<div class="hours-box">
+
+<p id="hours1">
+
+Monday - Saturday
+9:00 AM - 9:00 PM
+
+</p>
+
+<p id="hours2">
+
+Sunday
+10:00 AM - 2:00 PM
+
+</p>
+
+</div>
+
+</section>
+
+<section class="faq" id="faq">
+
+<h2 id="faqTitle">
+
+Frequently Asked Questions
+
+</h2>
+
+<div class="faq-box">
+
+<h3 id="faqQ1">
+
+Do you provide alteration service?
+
+</h3>
+
+<p id="faqA1">
+
+Yes, we provide all kinds of alterations.
+
+</p>
+
+</div>
+
+<div class="faq-box">
+
+<h3 id="faqQ2">
+
+Can I book through WhatsApp?
+
+</h3>
+
+<p id="faqA2">
+
+Yes, appointments are booked directly on WhatsApp.
+
+</p>
+
+</div>
+
+<div class="faq-box">
+
+<h3 id="faqQ3">
+
+How many days does stitching take?
+
+</h3>
+
+<p id="faqA3">
+
+Usually between 2 to 7 days.
+
+</p>
+
+</div>
+
+</section>
 <section class="contact" id="contact">
 
 <h2 id="contactTitle">
@@ -602,15 +676,39 @@ Contact Us
 
 <div class="contact-box">
 
-<p><i class="fa-solid fa-phone"></i> +91 XXXXXXXXXX</p>
+<p id="phoneText">
 
-<p><i class="fa-brands fa-whatsapp"></i> +91 XXXXXXXXXX</p>
+<i class="fa-solid fa-phone"></i>
 
-<p><i class="fa-solid fa-location-dot"></i> Your Shop Address</p>
++91 XXXXXXXXXX
 
-<p><i class="fa-solid fa-envelope"></i> example@email.com</p>
+</p>
 
-<a href="tel:+919999999999" class="call-button">
+<p id="whatsappText">
+
+<i class="fa-brands fa-whatsapp"></i>
+
++91 XXXXXXXXXX
+
+</p>
+
+<p id="addressText">
+
+<i class="fa-solid fa-location-dot"></i>
+
+Your Shop Address
+
+</p>
+
+<p id="emailText">
+
+<i class="fa-solid fa-envelope"></i>
+
+example@email.com
+
+</p>
+
+<a href="tel:+91XXXXXXXXXX" class="call-button">
 
 Call Now
 
@@ -621,8 +719,9 @@ Call Now
 <div class="map-box">
 
 <iframe
-src="https://www.google.com/maps?q=India&output=embed"
-loading="lazy">
+src="https://www.google.com/maps?q=Mumbai&output=embed"
+loading="lazy"
+allowfullscreen>
 </iframe>
 
 </div>
@@ -630,8 +729,6 @@ loading="lazy">
 </div>
 
 </section>
-
-<!-- ================= FOOTER ================= -->
 
 <footer>
 
@@ -647,7 +744,7 @@ Perfect Stitching For Every Occasion
 
 </p>
 
-<p>
+<p id="footerCopyright">
 
 © 2026 All Rights Reserved.
 
@@ -655,14 +752,14 @@ Perfect Stitching For Every Occasion
 
 </footer>
 
-<!-- ================= FLOATING BUTTONS ================= -->
-
 <a
 href="https://wa.me/918999635317"
 class="whatsapp-float"
 target="_blank">
 
-<i class="fa-brands fa-whatsapp"></i>
+<img
+src="images/whatsapp.png"
+alt="WhatsApp">
 
 </a>
 
@@ -673,6 +770,7 @@ class="top-button">
 <i class="fa-solid fa-arrow-up"></i>
 
 </a>
+</main>
 
 <script src="script.js"></script>
 
